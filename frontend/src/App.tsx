@@ -20,7 +20,7 @@ function App() {
         <h1 className="text-xl font-bold">My Application</h1>
          
       </header> */}
-      <Navbar/>
+      {/* <Navbar/> */}
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/signin" element={<Signin />} />
